@@ -1,0 +1,15 @@
+<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" xmlns:chart="nativescript-telerik-ui-pro/chart" xmlns="http://www.nativescript.org/tns.xsd">
+    <chart:RadCartesianChart id="cartesianChart">
+       <chart:RadCartesianChart.series>
+                <chart:LineSeries items="{{ dateTimeCategoricalSource }}" categoryProperty="timeStamp" valueProperty="Amount">
+                    <chart:LineSeries.horizontalAxis>
+                        <chart:DateTimeCategoricalAxis dateTimeComponent="Month" dateFormat="MM-DD"/>
+                    </chart:LineSeries.horizontalAxis>
+                    <chart:LineSeries.verticalAxis>
+                        <chart:LinearAxis />
+                    </chart:LineSeries.verticalAxis>
+                </chart:LineSeries>
+            </chart:RadCartesianChart.series>
+
+    </chart:RadCartesianChart>
+</navigation:ExamplePage>
