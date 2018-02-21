@@ -19,7 +19,13 @@
   },
   "dependencies": {
     "nativescript-fresco": "^3.0.2",
-    "nativescript-pro-ui": "^3.4.0",
+    "nativescript-ui-autocomplete": "^3.5.0",
+    "nativescript-ui-calendar": "../nativescript-ui-calendar-3.5.0.tgz",
+    "nativescript-ui-chart": "../nativescript-ui-chart-3.5.0.tgz",
+    "nativescript-ui-dataform": "../nativescript-ui-dataform-3.5.0.tgz",
+    "nativescript-ui-gauge": "../nativescript-ui-gauge-3.5.0.tgz",
+    "nativescript-ui-listview": "../nativescript-ui-listview-3.5.0.tgz",
+    "nativescript-ui-sidedrawer": "../nativescript-ui-sidedrawer-3.5.0.tgz",
     "tns-core-modules": "^3.4.0"
   },
   "devDependencies": {
